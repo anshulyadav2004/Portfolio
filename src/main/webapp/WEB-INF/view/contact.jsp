@@ -1,7 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 pageEncoding="UTF-8" isELIgnored="false" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fmt" uri="jakarta.tags.fmt" %>
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:c="http://www.w3.org/1999/XSL/Transform">
 
 <head>
     <!-- Required meta tags -->
@@ -66,20 +68,32 @@ pageEncoding="UTF-8" isELIgnored="false" %>
                 </div>
             </div>
             <div class="col-lg-9">
-                ${msg}
+                ${msg}${errors}
                 <form class="row contact_form" action="${pageContext.request.contextPath}/client/saveContact" method="post" id="contactForm" novalidate="novalidate">
                     <div class="col-md-6">
+                        <c:forEach var="err" items="${error}">
+                            <c:if test ="${err.field=='name'}"> ${err.defaultMessage}</c:if>
+                        </c:forEach>
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
                         </div>
+                        <c:forEach var="err" items="${error}">
+                            <c:if test ="${err.field=='email'}"> ${err.defaultMessage}</c:if>
+                        </c:forEach>
                         <div class="form-group">
                             <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
                         </div>
+                        <c:forEach var="err" items="${error}">
+                            <c:if test ="${err.field=='subject'}"> ${err.defaultMessage}</c:if>
+                        </c:forEach>
                         <div class="form-group">
                             <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
                         </div>
                     </div>
                     <div class="col-md-6">
+                        <c:forEach var="err" items="${error}">
+                            <c:if test ="${err.field=='message'}"> ${err.defaultMessage}</c:if>
+                        </c:forEach>
                         <div class="form-group">
                             <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
                         </div>
