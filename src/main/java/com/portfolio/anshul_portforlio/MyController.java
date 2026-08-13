@@ -51,6 +51,10 @@ public class MyController {
             modal.addAttribute("error",ListOfError);
             return "contact";
         }
+        if(implementation.isContactEmailExist(dto.getEmail())){
+            redirectAttributes.addFlashAttribute("msg","Email Already Exist");
+            return "redirect:/client/contact";
+        }
         implementation.saveContact(dto);
         redirectAttributes.addFlashAttribute("msg","Contact Saved");
         return"redirect:/client/contact";
