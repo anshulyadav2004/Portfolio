@@ -11,6 +11,13 @@
 	.primary_btn {
 		margin-top: 20px;
 	}
+     .highlight {
+       font-size: 240px;       /* control size */
+       font-weight: 700;      /* control thickness */
+       font-family: Arial;    /* change font */
+       color: #007bff;        /* change color */
+     }
+
 	.about_img {
 		position: relative;
 		right: 250px;
@@ -178,7 +185,7 @@
 		margin-bottom: 5px;
 	}
 	span {
-		font-size: 60px;
+		font-size: 20px;
 		font-weight: 700;
 		color: $title-color;
 	}

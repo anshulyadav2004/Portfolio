@@ -4,16 +4,14 @@
             <div class="col-lg-12">
                 <div class="footer_top flex-column">
                     <div class="footer_logo">
-                        <a href="#">
-                            <img src="${pageContext.request.contextPath}/img/logo.png" alt="">
-                        </a>
+
                         <h4>Follow Me</h4>
                     </div>
                     <div class="footer_social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-behance"></i></a>
+                        <a href="https://www.linkedin.com/in/yadavanshul24/"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="https://github.com/anshulyadav2004"><i class="fa fa-github-square"></i></a>
+                        <a href="https://leetcode.com/u/Anshul_Yadav_2002/"><i class="fa fa-link"></i></a>
+
                     </div>
                 </div>
             </div>

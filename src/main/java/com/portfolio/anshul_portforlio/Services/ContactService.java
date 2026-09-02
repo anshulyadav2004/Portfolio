@@ -9,4 +9,5 @@ public interface ContactService {
     ContactEntity saveContact(ContactDto dto);
     boolean isContactEmailExist(String email);
     List<ContactEntity> readAllContacts();
+    boolean deleteById(int id);
 }

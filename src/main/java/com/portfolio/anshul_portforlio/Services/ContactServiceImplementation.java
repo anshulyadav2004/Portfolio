@@ -42,5 +42,10 @@ public class ContactServiceImplementation implements ContactService{
         return repo.findAll();
     }
 
+    @Override
+    public boolean deleteById(int id) {
+        repo.deleteById(id);
+        return true;
+    }
 
 }

@@ -8,7 +8,7 @@ pageEncoding="UTF-8" isELIgnored="false" %>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="${pageContext.request.contextPath}/img/favicon.png" type="image/png">
-    <title>Satner Portfolio</title>
+    <title>Anshul's Portfolio</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/vendors/linericon/style.css">
@@ -22,7 +22,7 @@ pageEncoding="UTF-8" isELIgnored="false" %>
 
 <body>
 
-<!--================ Start Header Area =================-->
+ <!-- Start Header Area -->
 <%@include file="header.jsp" %>
 <!--================ End Header Area =================-->
 
@@ -34,11 +34,11 @@ pageEncoding="UTF-8" isELIgnored="false" %>
                 <div class="col-lg-7">
                     <div class="banner_content">
                         <h3 class="text-uppercase">Hell0</h3>
-                        <h1 class="text-uppercase">I am rahi satner</h1>
-                        <h5 class="text-uppercase">senior wordpress developer</h5>
+                        <h1 class="text-uppercase">I am Anshul Yadav</h1>
+                        <h5 class="text-uppercase">JAVA BACKEND DEVELOPER</h5>
                         <div class="d-flex align-items-center">
-                            <a class="primary_btn" href="${pageContext.request.contextPath}/contact.jsp"><span>Hire Me</span></a>
-                            <a class="primary_btn tr-bg" href="#"><span>Get CV</span></a>
+                            <a class="primary_btn" href="${pageContext.request.contextPath}/client/contact"><span>Hire Me</span></a>
+                            <a class="primary_btn tr-bg" href="${pageContext.request.contextPath}/client/downloadResume" target="_blank"><span>Get CV</span></a>
                         </div>
                     </div>
                 </div>
@@ -69,15 +69,16 @@ pageEncoding="UTF-8" isELIgnored="false" %>
                         Introduce about <br>
                         myself</h2>
                     <p>
-                        Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven
-                        midst their. Beast creepeth. Fish days.
+                        Hello! I'm Anshul.
+                        I’m a Computer Science graduate and Full-Stack Developer
+                        with a deep focus on <strong class="highlight"> Java Ecosystems & Enterprise Backend Web Applications.</strong>
                     </p>
                     <p>
-                        Is give may shall likeness made yielding spirit a itself together created after sea
-                        is in beast beginning signs open god you're gathering whose gathered cattle let.
-                        Creature whales fruit unto meat the life beginning all in under give two.
+                        I specialize in crafting clean, scalable backend systems using <strong class="highlight"> Java, Spring Boot, Spring Data JPA, Hibernate, and Servlets, paired with modern relational databases like MySQL </strong>. From designing MVC architectures to optimizing database queries, I enjoy turning complex business requirements into seamless, production-ready software.
+
+                        Whether it’s architecting an e-commerce backend, managing real-time data flows, or writing clean OOP code, I’m always focused on performance, security, and developer best practices.
                     </p>
-                    <a class="primary_btn" href="#"><span>Download CV</span></a>
+                    <a class="primary_btn" href="${pageContext.request.contextPath}/client/downloadResume" target="_blank"><span>Download CV</span></a>
                 </div>
             </div>
         </div>
@@ -86,242 +87,30 @@ pageEncoding="UTF-8" isELIgnored="false" %>
 <!--================ End About Us Area =================-->
 
 <!--================ Srart Brand Area =================-->
-<section class="brand_area section_gap_bottom">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-brand-item d-table">
-                            <div class="d-table-cell text-center">
-                                <img src="${pageContext.request.contextPath}/img/brands/logo1.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-brand-item d-table">
-                            <div class="d-table-cell text-center">
-                                <img src="${pageContext.request.contextPath}/img/brands/logo2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-brand-item d-table">
-                            <div class="d-table-cell text-center">
-                                <img src="${pageContext.request.contextPath}/img/brands/logo3.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-brand-item d-table">
-                            <div class="d-table-cell text-center">
-                                <img src="${pageContext.request.contextPath}/img/brands/logo4.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-brand-item d-table">
-                            <div class="d-table-cell text-center">
-                                <img src="${pageContext.request.contextPath}/img/brands/logo5.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-brand-item d-table">
-                            <div class="d-table-cell text-center">
-                                <img src="${pageContext.request.contextPath}/img/brands/logo6.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-brand-item d-table">
-                            <div class="d-table-cell text-center">
-                                <img src="${pageContext.request.contextPath}/img/brands/logo7.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-brand-item d-table">
-                            <div class="d-table-cell text-center">
-                                <img src="${pageContext.request.contextPath}/img/brands/logo8.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="single-brand-item d-table">
-                            <div class="d-table-cell text-center">
-                                <img src="${pageContext.request.contextPath}/img/brands/logo9.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="offset-lg-2 col-lg-4 col-md-6">
-                <div class="client-info">
-                    <div class="d-flex mb-50">
-                        <span class="lage">10</span>
-                        <span class="smll">Years Experience Working</span>
-                    </div>
-                    <div class="call-now d-flex">
-                        <div>
-                            <span class="fa fa-phone"></span>
-                        </div>
-                        <div class="ml-15">
-                            <p>call us now</p>
-                            <h3>(+1)-800-555-6789</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+ <%@include file="Brand.jsp" %>
+
 <!--================ End Brand Area =================-->
 
 <!--================ Start Features Area =================-->
-<section class="features_area">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <div class="main_title">
-                    <h2>service offers </h2>
-                    <p>
-                        Is give may shall likeness made yielding spirit a itself togeth created
-                        after sea <br> is in beast beginning signs open god you're gathering ithe
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row feature_inner">
-            <div class="col-lg-3 col-md-6">
-                <div class="feature_item">
-                    <img src="${pageContext.request.contextPath}/img/services/s1.png" alt="">
-                    <h4>Wp developing</h4>
-                    <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="feature_item">
-                    <img src="${pageContext.request.contextPath}/img/services/s2.png" alt="">
-                    <h4>UI/ux design</h4>
-                    <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="feature_item">
-                    <img src="${pageContext.request.contextPath}/img/services/s3.png" alt="">
-                    <h4>Web design</h4>
-                    <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="feature_item">
-                    <img src="${pageContext.request.contextPath}/img/services/s4.png" alt="">
-                    <h4>seo optimize</h4>
-                    <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--================ End Features Area =================-->
+ <!--================ Start Projects Area =================-->
+ <div class="container pt-5">
+     <div class="row justify-content-center">
+         <div class="col-lg-8 text-center">
+             <div class="main_title mb-0">
+                 <h2>PROJECTS</h2>
+             </div>
+         </div>
+     </div>
+ </div>
 
-<!--================ Start Testimonial Area =================-->
-<div class="testimonial_area section_gap_bottom">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <div class="main_title">
-                    <h2>client say about me</h2>
-                    <p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
-                        beginning signs open god you're gathering ithe</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="testi_slider owl-carousel">
-                <div class="testi_item">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="${pageContext.request.contextPath}/img/testimonials/t1.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="testi_text">
-                                <h4>Elite Martin</h4>
-                                <p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testi_item">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="${pageContext.request.contextPath}/img/testimonials/t2.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="testi_text">
-                                <h4>Davil Saden</h4>
-                                <p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testi_item">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="${pageContext.request.contextPath}/img/testimonials/t1.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="testi_text">
-                                <h4>Elite Martin</h4>
-                                <p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testi_item">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="${pageContext.request.contextPath}/img/testimonials/t2.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="testi_text">
-                                <h4>Davil Saden</h4>
-                                <p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testi_item">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="${pageContext.request.contextPath}/img/testimonials/t1.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="testi_text">
-                                <h4>Elite Martin</h4>
-                                <p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testi_item">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img src="${pageContext.request.contextPath}/img/testimonials/t2.jpg" alt="">
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="testi_text">
-                                <h4>Davil Saden</h4>
-                                <p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ <%@include file="Project.jsp" %>
+ <!--================ End Projects Area =================-->
+ <!--================ End Features Area =================-->
+
+
+
+
 <!--================ End Testimonial Area =================-->
 
 <!--================Footer Area =================-->
